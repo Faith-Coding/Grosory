@@ -8,7 +8,6 @@ document.querySelector(`#search-btn`).onclick = () =>{
     
 }
 
-
 let shoppingCart = document.querySelector(`.shopping-cart`);
 
 document.querySelector(`#cart-btn`).onclick = () => {
