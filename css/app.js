@@ -18,8 +18,6 @@ document.querySelector(`#cart-btn`).onclick = () => {
    navbar.classList.remove(`active`);
    
 }
-
-
 let loginForm = document.querySelector(`.login-form`);
 
 document.querySelector(`#login-btn`).onclick = () => {
@@ -38,20 +36,12 @@ document.querySelector(`#menu-btn`).onclick = () => {
     shoppingCart.classList.remove(`active`);
     loginForm.classList.remove(`active`);
 }
-
-
 window.onscroll = () => {
   searchForm.classList.remove(`active`);
   shoppingCart.classList.remove(`active`);
   loginForm.classList.remove(`active`);
   navbar.classList.remove(`active`);
 };
-
-
-
-
-
-
 
     var swiper = new Swiper(".Product-slider", {
       loop:true,
@@ -73,3 +63,27 @@ window.onscroll = () => {
         },
       },
     });
+
+
+
+
+
+     var swiper = new Swiper(".review-slider", {
+       loop: true,
+       spaceBetween: 20,
+       autoplay: {
+         delay: 7500,
+         disableOnInteraction: false,
+       },
+       breakpoints: {
+         0: {
+           slidesPerView: 1,
+         },
+         768: {
+           slidesPerView: 2,
+         },
+         1020: {
+           slidesPerView: 3,
+         },
+       },
+     });
