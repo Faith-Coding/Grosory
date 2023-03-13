@@ -24,9 +24,7 @@
 html{
 
     scroll-behavior: smooth;
-        font-size: 62.5%;
-   
- 
+    font-size: 62.5%;
     scroll-padding-top: 7rem;
   
 }
@@ -44,15 +42,10 @@ section{
     border-radius: 1rem;
     width: 20rem;
     border: .2rem   solid var(--black);
-
-     display: inline block;
+    display: inline block;
     color:var(--black);
     cursor: pointer;
     display: center;
-  
-  
-   
- 
 
 }
 .btn:hover{
@@ -80,16 +73,37 @@ section{
 .header .logo i{
     color:var(--orange);
 }
+
+
+/*.navbar a:hover{
+    color: var(--orange);
+    text-decoration: underline;
+ }
+ .navbar a:hover,
+ .navbar a.active{
+    color: var(--orange);
+    text-decoration: underline;
+ }*/
+
+
+
+
 .header .navbar a{
     font-size: 1.7rem;
     margin: 0 1rem;
     color: var(--black);
     text-decoration: none;
 }
-.header .navbar a:hover{
-    color: var(--range);
-    
-}
+.navbar a:hover{
+    color: var(--orange);
+    text-decoration: underline;
+ }
+  .navbar a:hover,
+ .navbar a.active{
+    color: var(--orange);
+    text-decoration: underline;
+ }
+
 
 .header .icons div{
     height: 4.5rem;
