@@ -62,11 +62,6 @@ window.onscroll = () => {
         },
       },
     });
-
-
-
-
-
      var swiper = new Swiper(".review-slider", {
        loop: true,
        spaceBetween: 20,
